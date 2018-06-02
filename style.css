@@ -1,0 +1,155 @@
+body{
+	font-family: Montserrat, sans serif;
+}
+
+.navbar{
+	background-color:#002848;
+}
+
+.navbar-brand{
+font-weight: 700;
+font-size: 1.5em;
+color:black;
+}
+
+.encabezado{
+	width: 100%;
+	height: 100%;
+
+	
+}
+
+.jumbotron{
+	width: 100%;
+	height: 100vh;
+	background: url(img/img2.jpg) no-repeat center ;
+	background-size: cover;
+	background-attachment: fixed;
+		margin: 0 0 0 0;
+
+}
+
+
+
+
+#profile-pic{
+	display: block;
+	border: solid black 5px;
+	border-radius: 50%;
+	margin: auto;
+	max-width: 20%;
+	
+	
+}
+
+#name{
+	
+	font-weight: 700;
+	
+}
+
+hr{
+	width: 700px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#epigrafe{
+
+	font-size: 1.5em;
+	
+}
+
+#name, #epigrafe{
+	color:white;
+	text-align: center;;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1), 
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h2{
+	margin-bottom: 5%;
+}
+
+.background{
+  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+  min-height: 500px;
+
+}
+
+
+#about{
+	margin: 20% 0 20% 0;
+	text-align: justify;
+	color:white;
+	font-size: 1.5em;
+}
+.back{
+	background-color: #4276c9;
+  background-image: -webkit-linear-gradient(150deg, #4276c9 35%, #80a4dd 35%);
+  min-height: 400px;
+}
+
+
+
+.icons{
+	font-size: 100px;
+	display: block;
+	width: 100%;
+	height: 20vh;
+	text-align: center;
+	margin:0 0 10% 0;
+}
+
+.colored:hover {
+	 -webkit-transition: width 2s, height 4s; /* Safari */
+    transition: width 2s, height 4s;
+}
+
+
+
+
+
+.bcolor{
+ background-color: #90b9f9;
+  background-image: -webkit-linear-gradient(30deg, #90b9f9 45%, #e3ebf7 45%);
+  min-height: 400px;
+}
+
+
+#projects{
+	margin:20% 5% 20% 5%;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+projects{
+	display: block;
+}
+
+
+
+
+
+footer{
+	margin: 0 0 0 0;
+}
+
+.contactback{
+	 background-color: #013A6B;
+  background-image: -webkit-linear-gradient(150deg, #013A6B 35%, #004E95 35%);
+  min-height: 200px;
+}
+
+
+#contact{
+	margin: 1% 0 10% 0;
+	text-align: center;
+	
+}
+
+li{
+	list-style-type: none;
+}

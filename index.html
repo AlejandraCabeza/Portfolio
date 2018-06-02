@@ -1,44 +1,147 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
-	<header>
-		<link href="styles.css" rel="stylesheet">
-	</header>
+<head>
+	<title>Alejandra Cabeza</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
 
-	<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ALEJANDRA CABEZA</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">My Work</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Contact</a></li>
+        
+          </ul>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+	
 		<header>
-			<div>
-				<h1>Alejandra Cabeza</h1>
-				<ul>
-					<li>Home</li>
-					<li>Projects</li>
-					<li>Contact me</li>
-				</ul>
-			</div>
+			<div class="encabezado">	
+					<div class="jumbotron jumbotron-fluid">
+								<img src="img/profile-pic.jpg" alt="profile pic" id="profile-pic" >
+								<h1 id="name"><span>Alejandra Cabeza</span></h1>
+								<hr>
+									<p id="epigrafe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+					</div> <!-- jumbotron -->
+			</div> <!-- container -->
+
 		</header>
 
-		<body>
-			<div>
-				<img= "***************"> </img>
-			</div>
+		<main>
+			<div class="background">
+				<div class="container">
+					<div id="about">
+						<h2>About me</h2>
 
-			<div>
-				<h1>Lastest projects<h1/>
-				<img src= "************"></img>
-			</div>
-		</body>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nulla arcu, suscipit vitae nisl sollicitudin, hendrerit vulputate neque. Morbi ornare aliquam libero eu tristique. Maecenas sit amet diam id nibh placerat tristique. Aenean pretium fringilla sodales. Nunc et elementum neque, eu scelerisque neque. Vivamus vitae convallis nulla, non auctor mi. Nulla at est magna. Vivamus eu interdum libero, nec posuere nibh. Mauris eleifend sapien sem, ut porttitor magna lobortis quis. Quisque volutpat lorem mi, nec vehicula magna maximus eleifend. Vivamus euismod ornareodio non rhoncus. Nulla posuere, mauris at suscipit maximus, diam libero vulputate nisi, in euismod metus magna et dolor. Nunc a cursus tellus.</p>
+					</div> <!-- about -->
+				</div> <!-- container -->
+				</div><!--  background -->	
+				<div class="back">
+					<div class="container skills">
+							<h2>Skills</h2>
+							<div class="row icons">
+								<div class="col-sm-4"><i class="devicon-html5-plain colored"></i></div>
+								<div class="col-sm-4 "><i class="devicon-css3-plain colored"></i></div>
+								<div class="col-sm-4"><i class="devicon-javascript-plain colored"></i></div>
+							</div>
+							<div class="row icons">
+								<div class="col-sm-4"><i class="devicon-bootstrap-plain colored"></i></div>	
+								<div class="col-sm-4"><i class="devicon-jquery-plain colored"></i></div>	
+								<div class="col-sm-4"><i class="devicon-sass-plain colored"></i></div>	
+							</div>
+					</div>
+				</div>
+	
+					
+					<div class="bcolor">
+						<div class="container projects" >
+								<h2>Lastest projects</h2>
+								<div class="row">
 
-		<footer>
-			<div>
-				<h3>Contact me<h3>
-					<ul>
-						<li><a class="social github">GitHub</a></li>
-						<li><a class="social linkedin">Linkedin</a></li>
-						<li><a class="social Facebook">Facebook</a></li>
+									<div class="col-lg-4 thumbnail"><a href="#"><img  src="img/img1.jpg"id="project1"></img></a>
+										<h1>Proyecto 1</h1>
+										<p>lorem ipsum kdskdksd kssjdkdsjkdsjds</p>
+									</div>
+
+									<div  class="col-lg-4 thumbnail"><a href="#"><img src="img/img2.jpg" id="project2" ></img></a>
+									<h1>Proyecto 1</h1>
+										<p>lorem ipsum kdskdksd kssjdkdsjkdsjds</p>
+									</div>
+
+									<div  class="col-lg-4 thumbnail"><a href="#"><img src="img/img3.jpg" id="project3" ></img></a>
+										<h1>Proyecto 1</h1>
+										<p>lorem ipsum kdskdksd kssjdkdsjkdsjds</p>
+									</div>
+
+								</div> <!-- row -->
+							
+						</div> <!-- container projects -->
+					</div> <!-- background color -->
+					
+				</main>
+
+				<footer>
+	
+		<div class="contactback">
+				<div class="container">
+					<div class="row" id="contact">		
+						<div class="col-sm-6">
+							<h2>Contact me</h2>
 						
-					</ul>
-			</div>
-		</footer>
+							<ul>
+							<li><a href="mailto:alejandrapcabeza@gmail.com">Email: alejandrapcabeza@gmail.com</a></li>
+							<li>Mobile: +44 7999 612 183</li>
+							</ul>
+						</div> <!-- col -->
 
-	</body>
+					<div class="col-sm-6">
+						<h2>Social Media</h2>
+							<ul>
+								<li><a class="social github">GitHub</a></li>
+								<li><a class="social linkedin">Linkedin</a></li>
+								<li><a class="social Facebook">Facebook</a></li>
+								
+							</ul>
+						</div>	<!-- list social media -->
+					</div><!--  row -->
+				</div> <!-- container -->
+		</div>
+			</footer>
+
+	        <!-- Optional JavaScript -->
+	        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+	        ></script>
+	    
+    </body>
 </html>
