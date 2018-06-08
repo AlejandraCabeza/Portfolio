@@ -1,50 +1,59 @@
 body{
-	font-family: Montserrat, sans serif;
+	font-family: "Open Sans", sans serif;
 }
 
 .navbar{
-	background-color:#002848;
+	background:rgba(201, 201, 201, 0.8);
+	height: 60px;
+	border-bottom: none;
 }
 
-.navbar-brand{
-font-weight: 700;
-font-size: 1.5em;
-color:black;
+
+#logo {
+    margin-top: -30px;
+    max-height: 90px;
+    max-width: 170px;
 }
 
-.encabezado{
-	width: 100%;
-	height: 100%;
-
-	
+#bs-example-navbar-collapse-1{
+	background-color: #dedede;
 }
+
+#menu{
+/*	margin-top: 3px;
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: 1px;*/
+}
+
+
+
 
 .jumbotron{
 	width: 100%;
 	height: 100vh;
-	background: url(img/img2.jpg) no-repeat center ;
+	background: url(back1.jpg) no-repeat center ;
 	background-size: cover;
 	background-attachment: fixed;
-		margin: 0 0 0 0;
+	
 
 }
 
-
-
-
-#profile-pic{
+/*#profile-pic{
 	display: block;
-	border: solid black 5px;
+	border: solid #4c4c4c 3px;
 	border-radius: 50%;
 	margin: auto;
+	margin-top: 5%;
 	max-width: 20%;
 	
 	
-}
+}*/
 
 #name{
-	
 	font-weight: 700;
+	margin-top: 17%;
+	letter-spacing: 5px;
 	
 }
 
@@ -61,35 +70,32 @@ hr{
 }
 
 #name, #epigrafe{
-	color:white;
+	color:#fff;
 	text-align: center;;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				0px 8px 13px rgba(0,0,0,0.1), 
-				0px 18px 23px rgba(0,0,0,0.1);
+	text-shadow: 2px 4px 4px rgba(0,0,0,0.5),
+				8px 8px 13px rgba(0,0,0,0.2), 
+				8px 18px 23px rgba(0,0,0,0.2);
 }
 
 h2{
-	margin-bottom: 5%;
+	margin: 5% 0 5% 0;
+
 }
 
-.background{
-  background-color: #013A6B;
-  background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
-  min-height: 500px;
-
+#skills{
+	padding-top: 6%;
 }
 
 
 #about{
-	margin: 20% 0 20% 0;
+	margin: 10% 0 20% 0;
 	text-align: justify;
-	color:white;
 	font-size: 1.5em;
 }
+
 .back{
-	background-color: #4276c9;
-  background-image: -webkit-linear-gradient(150deg, #4276c9 35%, #80a4dd 35%);
-  min-height: 400px;
+	background-color: #ededed;
+  	min-height: 400px;
 }
 
 
@@ -100,36 +106,87 @@ h2{
 	width: 100%;
 	height: 20vh;
 	text-align: center;
-	margin:0 0 10% 0;
+	margin-bottom: 5%;
+
+	
+
+}
+#html,#css,#js,#boot,#jq,#sass{
+	border: black solid 1px;
+	
 }
 
-.colored:hover {
-	 -webkit-transition: width 2s, height 4s; /* Safari */
-    transition: width 2s, height 4s;
-}
+
+#html:hover, #css:hover, #js:hover, #boot:hover, #jq:hover, #sass:hover
+
+ { 
+
+	transition: all .2s ease-in-out;
+ 	transform: scale(1.7); 
+ }
 
 
 
 
 
-.bcolor{
- background-color: #90b9f9;
-  background-image: -webkit-linear-gradient(30deg, #90b9f9 45%, #e3ebf7 45%);
-  min-height: 400px;
+#backproject{
+	min-height: 600px;
 }
 
 
 #projects{
-	margin:20% 5% 20% 5%;
-	max-height: 100%;
-	max-width: 100%;
-}
-
-projects{
-	display: block;
+	width: 100%;
+	min-height: 400px;
+	margin:5% 0 10% 0;
 }
 
 
+#projects,
+#projects > .column {
+    padding: 8px;
+
+}
+
+
+.column {
+    float: left;
+    width: 33%;
+
+}
+
+#projects:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: #ededed;
+    padding: 1%;
+    width: 100%;
+    text-align: justify;
+
+}
+h3{
+	text-align: center;
+}
+
+img{
+	width: 100%;
+
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
 
 
 
@@ -138,17 +195,26 @@ footer{
 }
 
 .contactback{
-	 background-color: #013A6B;
-  background-image: -webkit-linear-gradient(150deg, #013A6B 35%, #004E95 35%);
-  min-height: 200px;
+	 background: url(back1.jpg) no-repeat center ;
+	background-size: cover;
+	background-attachment: fixed;
+ 	min-height: 100px;
 }
 
 
 #contact{
 	margin: 1% 0 10% 0;
 	text-align: center;
+	color:white;
 	
 }
+
+a{
+	color:#ededed;
+	margin-bottom: 1%;
+}
+
+
 
 li{
 	list-style-type: none;
