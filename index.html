@@ -7,7 +7,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
     </head>
     <body>
 
@@ -20,7 +20,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#"><img src="logo1.png" alt="logo" id="logo">
+	      <a class="navbar-brand" href="#"><img src="images/logo1.png" alt="logo" id="logo">
         </a>
 	    </div>
 
@@ -46,9 +46,10 @@
 				
 					<div class="jumbotron jumbotron-fluid" id="home">
 							<!-- 	<img src="profile-pic.jpg" alt="profile pic" id="profile-pic" > -->
-								<h1 id="name"><span>Alejandra Cabeza</span></h1>
-								<hr>
+								<div id="name"><h1 ><span>Alejandra Cabeza</span><hr></h1>
+								
 									<p id="epigrafe">Web designer | Web developer | Photography enthusiast</p>
+								</div>
 					</div> <!-- jumbotron -->
 		
 
@@ -67,49 +68,41 @@
 				<div class="back">
 					<div class="container" id="skills">
 							<h2>Skills</h2>
-							<div class="row icons">
-								<div class="col-sm-4 col-xs-4" id="html"><i class="devicon-html5-plain colored"></i></div>
-								<div class="col-sm-4 col-xs-4" id="css"><i class="devicon-css3-plain colored" ></i></div>
-								<div class="col-sm-4 col-xs-4" id="js"><i class="devicon-javascript-plain colored" ></i></div>
-							</div>
-							<div class="row icons">
-								<div class="col-sm-4 col-xs-4" id="boot"><i class="devicon-bootstrap-plain colored"></i></div>	
-								<div class="col-sm-4 col-xs-4" id="jq"><i class="devicon-jquery-plain colored"></i></div>	
-								<div class="col-sm-4 col-xs-4" id="sass"><i class="devicon-sass-plain colored"></i></div>	
-							</div>
+								<div class="row">
+									<div class="col-sm-4 col-xs-6" id="html"><i class="devicon-html5-plain colored"></i></div>
+								<div class="col-sm-4 col-xs-6" id="css"><i class="devicon-css3-plain colored" ></i></div>
+								<div class="col-sm-4 col-xs-6" id="js"><i class="devicon-javascript-plain colored" ></i></div>
+								<div class="col-sm-4 col-xs-6" id="boot"><i class="devicon-bootstrap-plain colored"></i></div>	
+								<div class="col-sm-4 col-xs-6" id="jq"><i class="devicon-jquery-plain colored"></i></div>	
+								<div class="col-sm-4 col-xs-6" id="sass"><i class="devicon-sass-plain colored"></i></div>	
+						</div>
 					</div>
 				</div>
 				<div class="container" id="backproject">
 					<h2>My Work</h2>
 					<div class="row" id="projects">	
-						<div class="column">
+						<div class="column col-sm-6">
 							<div class="content">
-								<img src="previewPM.png" alt="project" id="project">
+								<img src="images/previewPM.png" alt="project" id="project">
 								<h3>My Work</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua.</p>
-								<div class="btn btn-default">View</div>
+								<div class="btn btn-default col-xs-12" id="btnwork1">View More</div>
+								<div class="btn btn-default col-xs-12" id="btnwork2">View Code</div>
 							</div>
 						</div>
 
-						<div class="column">
+						<div class="column col-sm-6">
 							<div class="content">
-								<img src="previewCH.png" alt="project" id="project">
+								<img src="images/previewCH.png" alt="project" id="project">
 								<h3>My Work</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua.</p>
-								<div class="btn btn-default">View</div>
+								<div class="btn btn-default col-xs-6" id="btnwork3">View More</div>
+								<div class="btn btn-default col-xs-6" id="btnwork4">View Code</div>
 							</div>
 						</div>
 
-						<div class="column">
-							<div class="content">
-								<img src="previewPM.png" alt="project" id="project">
-								<h3>My Work</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.</p>
-								<div class="btn btn-default">View</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -119,57 +112,48 @@
 				<footer>
 	
 		<div class="contactback">
-				<div class="container">
+				<div class="container" id="footwidth">
 					<div class="row" id="contact">		
-						<div class="col-sm-4">
-							<h2>Contact me</h2>
+						<div class="col-sm-6 col-xs-6 centrar">
+							<h2 class="contactsize">Contact me</h2>
 						
 							<ul>
 							<li><a class="social" href="mailto:alejandrapcabeza@gmail.com">Email: alejandrapcabeza@gmail.com</a></li>
-							<li><a class="social" href="tel:+447999612183">Mobile: +44 7999 612 183</a></li>
 							</ul>
-						</div> <!-- col -->
 
-					<div class="col-sm-4">
-						<h2>Social Media</h2>
-							<ul>
-								<li><a class="social github"><i class="fab fa-github"></i> GitHub</a></li>
-								<li><a class="social linkedin"><i class="fab fa-linkedin"></i> Linkedin</a></li>
-								<li><a class="social Facebook"><i class="fab fa-facebook"></i> Facebook</a></li>
-							</ul>
-						</div>	<!-- list social media -->
-					
-						
-							
-						<div class="col-sm-4">
-						<h2>Resume</h2>
+							<li class="contactsize">Resume</li>
 
-						<a class="social" href=""><i class="resume fas fa-file-alt"></i>  Download</a>
+							<a class="social" href="files/AlejandraCabezaResume.pdf"target="_blank"><i class="resume fas fa-file-alt"></i>   Download</a>
 
 						</div>
 
+					<div class="col-sm-6 col-xs-6 centrar">
+						<h2 class="contactsize">Social Media</h2>
+							<ul>
+								<li><a class="social github" href="https://github.com/AlejandraCabeza" target="_blank" ><i class="fab fa-github"></i> GitHub</a></li>
+								<li><a class="social linkedin" href="https://www.linkedin.com/in/alejandra-cabeza/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+	
+							</ul>
+						</div>	<!-- list social media -->
+						
+							
+						
 					</div><!--  row -->
 				</div> <!-- container -->
 		</div>
 
-		<div class="nav navbar-nav" id="navbottom">
-			<div class="container">
-			<ul id="menuitem">
-				<li><a href="">Home</a></li>
-				<li><a href="">About</a></li>
-				<li><a href="">Skills</a></li>
-				<li><a href="">Projects</a></li>
-				<li><a href="">Contact</a></li>
-			</ul>
-		</div>  <!-- container -->
-</div>
+
+
+		<div class="nav navbar-nav navbottom">
+			<p id="made">made with <i class="fas fa-heart heart"></i> by Alejandra Cabeza</p>
+		</div>
+
 			</footer>
 
-	        <!-- Optional JavaScript -->
-	        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 	        ></script>
-	    
+	        <script type="text/javascript" src="js/scroll.js"></script>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     </body>
 </html>

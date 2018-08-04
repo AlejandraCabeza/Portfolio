@@ -17,6 +17,10 @@ body{
     border-radius: 0;
 }
 
+#menu a:hover{
+	color:rgba(230, 255, 0, 0.8);
+}
+
 .navbar-default .navbar-nav>li>a {
     color: #fff;
     font-weight: 600;
@@ -41,12 +45,15 @@ body{
 .jumbotron{
 	width: 100%;
 	height: 100vh;
-	background: url(back1.jpg) no-repeat center ;
+	background: url(../images/back1.jpg) no-repeat center ;
 	background-size: cover;
 	background-attachment: fixed;
+	padding-bottom: 0px;
+
 	
 
 }
+
 
 /*#profile-pic{
 	display: block;
@@ -61,13 +68,13 @@ body{
 
 #name{
 	font-weight: 700;
-	margin-top: 17%;
+	margin: 15% 0 15% 0;
 	letter-spacing: 5px;
 	
 }
 
 hr{
-	width: 700px;
+	width: 30%;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
@@ -87,35 +94,48 @@ hr{
 }
 
 h2{
-	margin: 5% 0 5% 0;
+	margin: 2% 0 5% 0;
 
+.background{
+	height: 100vh;
 }
 
-#skills{
-	padding-top: 6%;
 }
-
-
 #about{
-	margin: 10% 0 20% 0;
+	margin: 8% 0 15% 0;
 	text-align: justify;
 	font-size: 1.5em;
 }
 
-.back{
-	background-color: #ededed;
-  	min-height: 400px;
+p{
+	font-size: 70%;
+	height: 100%;
+	
+
+}
+
+
+#skills{
+	padding-top: 2%;
 }
 
 
 
-.icons{
-	font-size: 100px;
+
+.back{
+	background-color: #ededed;
+  	min-height: 350px;
+}
+
+
+
+.colored{
+	font-size: 90px;
 	display: block;
 	width: 100%;
 	height: 20vh;
 	text-align: center;
-	margin-bottom: 10%;
+	margin-bottom: 15%;
 
 
 	
@@ -143,7 +163,7 @@ h2{
 #projects{
 	width: 100%;
 	min-height: 400px;
-	margin:5% 0 10% 0;
+
 }
 
 
@@ -156,7 +176,7 @@ h2{
 
 .column {
     float: left;
-    width: 33%;
+/*    width: 33%;*/
 
 }
 
@@ -171,6 +191,7 @@ h2{
     padding: 10%;
     width: 100%;
     text-align: justify;
+    min-height: 50vh;
 }
 
 #project:hover {
@@ -178,11 +199,19 @@ box-shadow: 0 0 2px 2px rgba(230, 255, 0, 0.8);
 }    
 
 .btn {
-	margin: 0 auto;
-	display:block;
-	width: 30%;
+	display:inline-block;
+	width: 40%;
 
 }
+
+#btnwork1, #btnwork3{
+	margin-right: 9%;
+}
+
+#btnwork2, #btnwork4{
+	margin-left: 10%;
+}
+
 
 
 h3{
@@ -199,20 +228,33 @@ footer{
 	margin: 0;
 }
 
+
+
 .contactback{
-	 background: url(back1.jpg) no-repeat center ;
+	 background: url(../images/back1.jpg) no-repeat center ;
 	background-size: cover;
 	background-attachment: fixed;
- 	min-height: 50px;
- 	padding-bottom: 20px;
+ 	min-height: 60px;
+ 	padding-bottom: 50px;
+}
+
+.centrar{
+	text-align : center;
+}
+
+#footwidth{
+	height: 25vh;
+}
+
+.contactsize{
+	font-size: 1.5em;
 }
 
 
 #contact{
-	margin: 1% 0 10% 0;
-	text-align: center;
+	margin-top: 5px;
 	color:white;
-	height: 100px;
+	height: 100%;
 	
 }
 
@@ -222,16 +264,11 @@ a{
 }
 
 
-
-li{
-	list-style-type: none;
-
-}
-
 .social{
-	display: block;
-	margin: 10px 0 10px 0;
-	font-size: 1.2em;
+	display: inline-block;
+	padding: 3px 3px;
+	font-size: 1em;
+	width: 100%
 }
 
 .social:hover{
@@ -240,33 +277,78 @@ li{
 
 .fab, .fas{
 	font-size: 2em;
+	margin-top: 15px;
 }
 
-#navbottom{
+
+.navbottom{
 	  /*background-color: #333;*/
-	  background-color: #3a3a3a;
+	 background-color: #3a3a3a;
     overflow: hidden;
     bottom: 0;
     width: 100%;
+    margin: 0;
 }
 
-#menuitem{
-	margin: 0 30%;
+
+ul{
+	padding-left: 0;
+}
+li{
+	list-style-type: none;
+
 }
 
-#navbottom a{
-	   float: left;
-	   display: inline;
-    color: #f4f4ff;
-  text-align: center;
-    padding: 18px 20px;
-    margin: 0 auto;
+.heart{
+	color: red;
+	font-size: 0.9em;
+}
+#made{
+	color: white;
+	float: right;
+	margin-right: 20px;
+}
+/*
+.bottomnav {
+    background-color: rgba(0,0,0,0.8);
+    overflow: hidden;
+    width: 100%;
+    height: 10vh;
+    margin:0 0 0 0;
+    border: none;
+    
+
+}
+.bottomnav a {
+    float: left;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2%;
     text-decoration: none;
-    font-size: 1em;
-    width: 20%;
+    font-size: 14px;
+    height: 100%;
+	text-align:center; 
+	position: relative;
+	display: inline-block;
+}
 
+.bottomnav a:hover {
+    color: rgba(230, 255, 0, 0.8);
+}
+
+li{
+	list-style-type: none;
 
 }
 
-
+.bottomnavbar ul{
+	padding: 0;
+	margin: 0;
+	text-align:center; 
+	position: relative;
+	display: inline-block;
+}
+   
+*/
 
