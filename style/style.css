@@ -1,0 +1,258 @@
+body{
+	font-family: "Open Sans", sans serif;
+}
+
+#logo {
+    margin-top: -30px;
+    max-height: 90px;
+    max-width: 170px;
+}
+
+.navbar-default {
+    background: rgba(0,0,0,0.6);
+    border: 0 solid;
+    border-radius: 0;
+}
+
+#menu a:hover{
+	color: lightseagreen;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.navbar-left {
+    margin-left: 50px;
+    text-align: center;
+    border: none;    
+}
+
+#menu{
+	color:white;
+}
+
+.jumbotron{
+	width: 100%;
+	height: 100vh;
+	background: url(../images/back1.jpg) no-repeat center ;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 0px;
+}
+
+#name{
+	font-weight: 700;
+	margin: 15% 0 15% 0;
+	letter-spacing: 5px;
+}
+
+hr{
+	width: 30%;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#epigrafe{
+	font-size: 1.5em;
+}
+
+#name, #epigrafe{
+	color:#fff;
+	text-align: center;;
+	text-shadow: 2px 4px 4px rgba(0,0,0,0.5),
+				8px 8px 13px rgba(0,0,0,0.2), 
+				8px 18px 23px rgba(0,0,0,0.2);
+}
+
+h2{
+	margin: 2% 0 5% 0;
+
+.background{
+	height: 100vh;
+}
+
+}
+#about{
+	margin: 8% 0 15% 0;
+	text-align: justify;
+	font-size: 2em;
+}
+
+/* Skills section */
+
+.flex-container{
+	display:flex;
+	flex-wrap: wrap;
+	width:100%;
+	margin:auto;
+	
+}
+.icons{
+	display: inline-flex;
+	width:30%;
+	float:none;
+	justify-content: center;
+	padding:10px;
+	margin: 40px 10px;
+	border: 1px solid #ededed;
+	border-radius: 2em/4em; 
+}
+
+i{
+	font-size: 6em;
+}
+
+
+#html:hover, #css:hover, #js:hover, #boot:hover, #jq:hover, #sass:hover{ 
+	transition: all .2s ease-in-out;
+ 	transform: scale(1.7); 
+ }
+
+
+ /* Project section */
+
+#backproject{
+	min-height: 100vh;
+}
+
+.flex-container-pr {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+
+.content {
+    background-color: #ededed;
+    padding: 10%;
+    width: 100%;
+    text-align: justify;
+    min-height: 50vh;
+}
+
+#project:hover {
+box-shadow: 0 0 2px 2px lightseagreen;
+}    
+
+.btn {
+	display:flex;
+	justify-content: center;
+	width: 40%;
+	font-size: 0.7em;
+	margin: auto;
+
+}
+ 
+.content div a{
+	color: black;
+	font-size: 1.2em;
+}
+
+
+.content div a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+#btnwork1, #btnwork3{
+	margin-right: 9%;
+}
+
+#btnwork2, #btnwork4{
+	margin-left: 10%;
+}
+
+
+h3{
+	text-align: center;
+}
+
+img{
+	width: 100%;
+
+}
+
+
+footer{
+	margin: 0;
+}
+
+
+.contactback{
+	background: url(../images/back1.jpg) no-repeat center ;
+	background-size: cover;
+	background-attachment: fixed;
+ 	min-height: 60px;
+ 	padding-bottom: 50px;
+}
+
+.centrar{
+	text-align : center;
+}
+
+#footwidth{
+	height: 25vh;
+}
+
+.contactsize{
+	font-size: 1.5em;
+}
+
+#contact{
+	margin-top: 5px;
+	color:white;
+	height: 100%;
+}
+
+a{
+	color:#ededed;
+}
+
+.social{
+	display: inline-block;
+	padding: 3px 3px;
+	font-size: 1em;
+	width: 100%
+}
+
+.social:hover{
+	color: lightseagreen;
+}
+
+.fab, .fas{
+	font-size: 2em;
+	margin-top: 15px;
+}
+
+
+.navbottom{
+	  /*background-color: #333;*/
+	 background-color: #3a3a3a;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+
+ul{
+	padding-left: 0;
+}
+li{
+	list-style-type: none;
+
+}
+
+.heart{
+	color: red;
+	font-size: 0.9em;
+}
+#made{
+	color: white;
+	float: right;
+	margin-right: 20px;
+}
